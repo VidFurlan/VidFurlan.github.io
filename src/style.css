@@ -13,6 +13,7 @@
     color: var(--color-1);
 
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
