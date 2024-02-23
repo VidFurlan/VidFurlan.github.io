@@ -1,0 +1,41 @@
+body {
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: var(--foreground);
+}
+
+p {
+    line-height: 25px;
+}
+
+li {
+    margin: 5px;
+    font-size: 18px;
+}
+
+.title-section {
+    margin-top: 4rem;
+}
+
+.title-name {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.title {
+    font-size: 6rem;
+    text-align: center;
+    color: var(--primary);
+    margin: 0;
+}
+
+.section {
+    margin: auto;
+    margin-top: 9rem;
+    width: 60%;
+    max-width: 1000px;
+    justify-content: center;
+}

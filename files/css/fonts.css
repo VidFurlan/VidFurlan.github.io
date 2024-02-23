@@ -1,0 +1,11 @@
+/* https://www.onlinewebfonts.com/tag/Microgramma */
+@import url(https://db.onlinewebfonts.com/c/069728a2c959cafbf691402fb2a265a4?family=MicrogrammaDMedExt); 
+@import url(https://db.onlinewebfonts.com/c/53062a13ae4416854e325ea9f587cc1a?family=MicrogrammaDBolExt); 
+@import url(https://db.onlinewebfonts.com/c/147f91b21d6bdde5e767e064aee48c62?family=MicrogrammaExtDMed+W01+Regular); 
+@import url(https://fonts.cdnfonts.com/css/noir);
+
+:root {
+    --title-bold-font: 'MicrogrammaDBolExt'; 
+    --title-regular-font: 'MicrogrammaDMedExt';
+    --regular-font: 'Noir', sans-serif; 
+}
