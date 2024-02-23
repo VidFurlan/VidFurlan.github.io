@@ -1,6 +1,10 @@
 @import 'colors.css';
 @import 'fonts.css';
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
     color: var(--foreground);
 }

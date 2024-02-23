@@ -4,7 +4,8 @@ body {
 
 h1 {
     text-align: center;
-    color: var(--foreground);
+    color: var(--primary);
+    background-color: var(--foreground);
 }
 
 p {
@@ -16,6 +17,14 @@ li {
     font-size: 18px;
 }
 
+.section {
+    margin: auto;
+    margin-top: 7rem;
+    width: 60%;
+    max-width: 1000px;
+    justify-content: center;
+}
+
 .title-section {
     margin-top: 4rem;
 }
@@ -23,19 +32,23 @@ li {
 .title-name {
     margin: 0;
     font-size: 2rem;
+    color: var(--foreground);
+    background-color: var(--background);
 }
 
 .title {
     font-size: 6rem;
     text-align: center;
     color: var(--primary);
+    background-color: var(--foreground);
     margin: 0;
 }
 
-.section {
-    margin: auto;
-    margin-top: 9rem;
-    width: 60%;
-    max-width: 1000px;
-    justify-content: center;
+.nav ul {
+   list-style: none;
+   text-align: center;
+}
+
+.nav ul li {
+   display: inline-block;
 }
